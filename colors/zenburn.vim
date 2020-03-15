@@ -233,7 +233,7 @@ endif
 hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
 hi Conditional     guifg=#f0dfaf gui=bold                     ctermfg=223 cterm=bold
 hi Constant        guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
-hi Cursor          guifg=#000d18 guibg=#8faf9f gui=bold       ctermfg=233 ctermbg=109 cterm=bold
+hi Cursor          guifg=#000d18 guibg=#8faf9f gui=bold       ctermfg=233 ctermbg=83
 hi Debug           guifg=#bca3a3 gui=bold                     ctermfg=181 cterm=bold
 hi Define          guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
 hi Delimiter       guifg=#8f8f8f                              ctermfg=245
@@ -321,7 +321,7 @@ else
     hi Conceal       guifg=#8f8f8f guibg=#484848           ctermfg=246 ctermbg=238
     hi ColorColumn   guibg=#484848                         ctermbg=238
     hi CursorLine    guibg=#434443                         ctermbg=238 cterm=none
-    hi CursorLineNr  guifg=#d2d39b guibg=#262626           ctermfg=230 ctermbg=235
+    hi CursorLineNr  guifg=#d2d39b guibg=#262626           ctermfg=236 ctermbg=195
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
         hi CursorColumn  guibg=#434343                     ctermbg=238 cterm=none
     else
